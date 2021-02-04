@@ -81,6 +81,7 @@ function IrisBeastiePointSect(props) {
     setCouponList(data)
   }
 
+  
   // 一開始就會開始載入資料
   useEffect(() => {
     getCouponFromServer();
